@@ -1,41 +1,45 @@
 {
-  "name": "@nextcloud/password-confirmation",
-  "version": "1.0.1",
-  "description": "Promise-based password confirmation wrapper for Nextcloud",
-  "main": "dist/main.js",
-  "scripts": {
-    "build": "webpack --progress --config webpack.prod.js",
-    "build:doc": "typedoc --out dist/doc src && touch dist/doc/.nojekyll",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "nextcloud"
-  ],
-  "homepage": "https://github.com/nextcloud/nextcloud-password-confirmation#readme",
-  "author": "Christoph Wurst",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nextcloud/nextcloud-password-confirmation"
-  },
-  "bugs": {
-    "url": "https://github.com/nextcloud/nextcloud-password-confirmation/issues"
-  },
-  "devDependencies": {
-    "@babel/core": "7.16.0",
-    "@babel/plugin-transform-arrow-functions": "7.16.0",
-    "@babel/preset-env": "7.16.4",
-    "@nextcloud/browserslist-config": "^2.0.0",
-    "babel-loader": "8.2.3",
-    "typedoc": "^0.22.7",
-    "webpack": "5.64.4",
-    "webpack-cli": "4.9.1",
-    "webpack-merge": "5.8.0"
-  },
-  "dependencies": {
-    "core-js": "^3.6.4"
-  },
-  "browserslist": [
-    "extends @nextcloud/browserslist-config"
-  ]
+	"name": "@nextcloud/password-confirmation",
+	"version": "1.0.1",
+	"description": "Promise-based password confirmation wrapper for Nextcloud",
+	"main": "dist/main.js",
+	"scripts": {
+		"build": "webpack --progress --config webpack.prod.js",
+		"build:doc": "typedoc --out dist/doc src && touch dist/doc/.nojekyll",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"nextcloud"
+	],
+	"homepage": "https://github.com/nextcloud/nextcloud-password-confirmation#readme",
+	"author": "Christoph Wurst",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nextcloud/nextcloud-password-confirmation"
+	},
+	"bugs": {
+		"url": "https://github.com/nextcloud/nextcloud-password-confirmation/issues"
+	},
+	"devDependencies": {
+		"@babel/core": "7.16.0",
+		"@babel/plugin-transform-arrow-functions": "7.16.0",
+		"@babel/preset-env": "7.16.4",
+		"@nextcloud/browserslist-config": "^2.0.0",
+		"babel-loader": "8.2.3",
+		"typedoc": "^0.22.7",
+		"webpack": "5.64.4",
+		"webpack-cli": "4.9.1",
+		"webpack-merge": "5.8.0"
+	},
+	"dependencies": {
+		"core-js": "^3.6.4"
+	},
+	"browserslist": [
+		"extends @nextcloud/browserslist-config"
+	],
+	"engines": {
+		"node": "^14.0.0",
+		"npm": "^7.0.0"
+	}
 }
